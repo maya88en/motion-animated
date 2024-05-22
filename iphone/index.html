@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motion Art Effects</title>
+    <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+    <script>
+      window.ga = window.ga || function() {
+        (ga.q = ga.q || []).push(arguments)
+      };
+      ga.l = +new Date;
+      ga('create', 'UA-105392568-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div class="theBall-outer">
+      <div class="theBall"></div>
+    </div>
+    <div id="page" class="site">
+      <canvas class="banner_canvas" id="canvas_banner"></canvas>
+  
+      <div class="top-title wow fadeInUp" onmousemove="color_hover(event)">
+        <div class="row">
+          <div class="col-lg-6">
+            <h6></h6>
+            <!-- <h1> <span class="line-Bottom"></span></h1> -->
+          </div>
+          <div class="col-lg-6">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+  </body>
+</html>
